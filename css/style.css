@@ -1,0 +1,277 @@
+body{
+    
+    margin:0;
+    background:#0d0d0d;
+    font-family: 'Nunito', sans-serif;
+    font-size:25px;
+    line-height: 1.5;
+    color: aliceblue;
+}
+*,
+*:before,
+*:after
+{
+    box-sizing:border-box;
+}
+
+/*Все мэрджины у заголовков*/
+
+h1,h2,h3,h4,h5,h6,h7{
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h2{
+    border-bottom: 3px solid #fce38a;
+    font-size:50px;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h8{
+    
+    
+    font-size:40px;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h9{
+    
+    border-bottom: 3px solid #fce38a;
+    font-size:30px;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h3{
+    
+    
+    font-size:30px;
+    margin: 0;
+    color:#fce38a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h4{
+    
+   
+    font-size:30px;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h5{
+    
+   text-align: left;
+    font-size:40px;
+    margin: 0;
+    color:#fce38a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h6{
+    
+   text-align: left;
+    font-size:25px;
+    margin: 0;
+    color:aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.ugu{
+    text-align: center;
+    border-bottom: 3px solid #fce38a;
+    font-size:50px;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Рамка вокруг картинок*/
+img{
+    border: 2px solid black;
+    margin: 0;
+}
+
+/*Контейнер первый*/
+
+.container{
+    width: 100%;
+    max-width: 1450px;
+    margin:0 auto;  
+}
+
+/*Контейнер второй*/
+
+.container2{
+    text-align: center;
+    width: 100%;
+    max-width: 1450px;
+    height: 1000px;
+    margin:0 auto;  
+}
+
+/*Контейнер трейтий*/
+
+.container3{
+    text-align: center;
+    width: 100%;
+    max-width: 1450px;
+    height: 1000px;
+    margin:0 auto;  
+}
+.container4{
+    height: 60px;
+    width: 100%;
+    max-width: 1450px;
+    margin:0 auto;  
+}
+/* контейнер для карты с яндекса */
+.container5{
+    top: 100px;
+    height: 60px;
+    width: 100%;
+    
+    margin:0 auto;  
+}
+/*Стили для интро*/
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    background: url("../other/6.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;   
+}
+
+/* header */
+.header{ 
+    position: absolute;
+    width: 100%;
+    padding-right: 0px;
+    
+    top:0;
+    left:0;
+    right: 0;
+    z-index:1000;
+}
+.header2{ 
+    color: aliceblue; 
+    background: black;
+    position: absolute;
+    width: 100%;
+    padding-right: 0px;
+    
+    top:6476px;
+    left:0;
+    right: 0;
+    z-index:1000;
+}
+.header3{ 
+    
+    color: aliceblue; 
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    padding-right: 0px;
+    
+    
+    top: 5900px;/*5422px если что*/
+    left:0;
+    right: 0;
+    z-index:1000;
+}
+.header4{ 
+    color: aliceblue; 
+    background: black;
+    position: absolute;
+    width: 1864px;
+    padding-right: 0px;
+    
+    top:1200px;
+    left:0;
+    right: 0;
+    z-index:1000;
+}
+.header5{ 
+    color: aliceblue; 
+    background: black;
+    position: absolute;
+    width: 1864px;
+    padding-right: 0px;
+    
+   top:2000px;/*2000px*/
+    left:0;
+    right: 0;
+    z-index:1000;
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headerInner2{
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerLogo{
+    font-size: 50px;
+    font-weight: 700;
+    color:#fce38a;
+    
+}
+.headerLogo2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    
+}
+.cent{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+.Eat{
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+/* навигация*/
+.nav{
+    font-size:20px;
+    text-transform: uppercase;
+}
+.navLink{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color:aliceblue;
+    text-decoration: none; 
+    transition: color .10s linear;
+}
+/* навигация при наведении*/
+.navLink:hover{
+    color: #fce38a;
+}
+/* кнопки */
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #333;
+    padding: 10px 15px;
+    
+}
+table{
+    font-size: 20px;
+
+}
+
+
